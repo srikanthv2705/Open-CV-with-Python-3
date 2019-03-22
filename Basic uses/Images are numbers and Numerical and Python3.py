@@ -8,9 +8,9 @@ def main():
     print(img) 
     print(type(img))
     print(img.dtype)
-    print(img.shape)    #(512,512,3)
+    print(img.shape)    #(512,512)
     print(img.ndim)         
-    print(img.shape)   #(512*512*3)
+    print(img.shape)   #(512*512)
     
     cv2.imshow('Lena', img)
     cv2.waitKey(0)
