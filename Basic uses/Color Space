@@ -1,0 +1,73 @@
+Images are Numbers
+The Below numbers are stored for Lena image
+[125 137 226] these are stored in the order of color image these are B G R format(B Blue, G Green , R Red)
+Blue = 125
+Green = 137
+Red = 226
+
+Dtype is uint8 -  unsigned integer 8- bits
+
+00000000 0x00 0
+11111111 0xff 255 
+
+0-255 = 256 (Set of 256 Colors)
+
+256^3 = 256*256*256 = 16777216 (Unique Colors)
+
+Shape of the color image of lena (512,512,3)
+
+(512,512,3) it indicates (height, Width, colorchannels)
+
+ndim is 3 for color images
+if it is BW ndim is 2
+This is composite datatype (N Dimensional array)
+
+[[[125 137 226]
+  [125 137 226]
+  [133 137 223]
+  ...
+  [122 148 230]
+  [110 130 221]
+  [ 90  99 200]]
+
+ [[125 137 226]
+  [125 137 226]
+  [133 137 223]
+  ...
+  [122 148 230]
+  [110 130 221]
+  [ 90  99 200]]
+
+ [[125 137 226]
+  [125 137 226]
+  [133 137 223]
+  ...
+  [122 148 230]
+  [110 130 221]
+  [ 90  99 200]]
+
+ ...
+
+ [[ 60  18  84]
+  [ 60  18  84]
+  [ 58  27  92]
+  ...
+  [ 84  73 173]
+  [ 76  68 172]
+  [ 79  62 177]]
+
+ [[ 57  22  82]
+  [ 57  22  82]
+  [ 62  32  96]
+  ...
+  [ 79  70 179]
+  [ 81  71 181]
+  [ 81  74 185]]
+
+ [[ 57  22  82]
+  [ 57  22  82]
+  [ 62  32  96]
+  ...
+  [ 79  70 179]
+  [ 81  71 181]
+  [ 81  74 185]]]
