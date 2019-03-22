@@ -1,0 +1,7 @@
+Open CV3 Installation instructions
+Follow the Below Link for Open CV3 Installation
+https://solarianprogrammer.com/2016/09/17/install-opencv-3-with-python-3-on-windows/
+we need to install some prerequisites before installing follow the instructions carefully
+Need to install Numpy whl and Open CV3 Whl files and install using command prompt
+Check the Open CV website for more instructions https://docs.opencv.org/master/index.html
+Lets get started
